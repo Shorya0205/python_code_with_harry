@@ -10,7 +10,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyAQoD82B3hPvnJSz3obqW8CSIB6VLVdKlk")
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-apikey="6e0714fcc4e14a0a9b005f947e8cdd76"
+apikey="6e0714fcc4e14a0a9b005f947e8cdd$$"
 
 def speak(text):
     print(f"SPEAK: {text}")  # Debug print
@@ -168,5 +168,8 @@ if __name__ == "__main__":
            
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
+
+#72
            
             
+
