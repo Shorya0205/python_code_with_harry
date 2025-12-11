@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 
 
-genai.configure(api_key="AIzaSyAQoD82B3hPvnJSz3obqW8CSIB6VLVdKlk")
+genai.configure(api_key="AIzaSyAQoD823hPvnJSz3obqW8CSIB6VLVdKlk")
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 apikey="6e0714fcc4e14a0a9b005f947e8cdd72"
